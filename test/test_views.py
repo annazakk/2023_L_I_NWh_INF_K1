@@ -4,7 +4,7 @@ from hello_world.formater import SUPPORTED
 
 
 class FlaskrTestCase(unittest.TestCase):
-    def setUp(self):
+    dfe setUp(self):
         app.config['TESTING'] = True
         self.app = app.test_client()
 
